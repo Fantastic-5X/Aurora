@@ -1,6 +1,6 @@
 class Physics{
 
-    float gravity = 9.81f;
+    float gravity = 10.0f;
 
     public float getPy() {
         return gravity;
@@ -15,7 +15,7 @@ class Physics{
     }
 
     double getG() {
-        return 9.81;
+        return 10.0;
     }
 }
 
