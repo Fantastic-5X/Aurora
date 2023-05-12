@@ -1,11 +1,5 @@
-class Geometry extends Physics{
-
-    void accessingPi(){
-        System.out.println(getPy());
-        System.out.println(getPy());
-    }
-
-    double potentialenergy(double mass, double height){
-      return mass * getG() * height;
+pulic class PotentialEnergy {
+    pulic static double calculate(double mass, double height) {
+        return mass * 10.0 * height;
     }
 }
