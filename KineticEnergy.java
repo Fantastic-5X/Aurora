@@ -1,24 +1,8 @@
-class Physics{
-
-    float gravity = 10.0f;
-
-    public float getPy() {
-        return gravity;
-    }
-
-    public void setPy(float py) {
-        this.gravity = py;
-    }
-
-    float multiply(float numberOne, float numberTwo){
-        return numberOne * numberTwo;
-    }
-
-    double getG() {
-        return 10.0;
+public class kineticEnergy {
+    public static double calculate(double mass, double speed) {
+        return 0.5 * mass * speed * speed;
     }
 }
-
-
+    
 
 
